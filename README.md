@@ -13,8 +13,7 @@ Microservicio de ejecución técnica de FixGo: confirmación de propiedad, infor
 | Swagger | http://localhost:8085/swagger-ui.html |
 | Responsable | Gabriel Tijaro Jiménez |
 
-## Cómo ejecutar
-
+##
 1. Base de datos vacía `fixgo_execution` en MySQL.
 2. Variables de entorno (CMD): `set DB_PORT=3306` y `set DB_PASSWORD=su_clave`.
 3. `mvnw.cmd spring-boot:run` (Linux: `./mvnw spring-boot:run`).
